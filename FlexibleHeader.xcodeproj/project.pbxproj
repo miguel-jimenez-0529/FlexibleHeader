@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		52AF5E482107A4E40019CB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF5E472107A4E40019CB3E /* AppDelegate.swift */; };
-		52AF5E4A2107A4E40019CB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF5E492107A4E40019CB3E /* ViewController.swift */; };
+		52AF5E4A2107A4E40019CB3E /* TableViewFlexibleHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF5E492107A4E40019CB3E /* TableViewFlexibleHeaderVC.swift */; };
 		52AF5E4D2107A4E40019CB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AF5E4B2107A4E40019CB3E /* Main.storyboard */; };
 		52AF5E4F2107A4E50019CB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AF5E4E2107A4E50019CB3E /* Assets.xcassets */; };
 		52AF5E522107A4E50019CB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AF5E502107A4E50019CB3E /* LaunchScreen.storyboard */; };
+		52AF5E5A2107C5D80019CB3E /* FlexibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF5E592107C5D80019CB3E /* FlexibleHeader.swift */; };
+		52AF5E5D2108BBFA0019CB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF5E5C2108BBFA0019CB3E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52AF5E442107A4E40019CB3E /* FlexibleHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AF5E472107A4E40019CB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52AF5E492107A4E40019CB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52AF5E492107A4E40019CB3E /* TableViewFlexibleHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFlexibleHeaderVC.swift; sourceTree = "<group>"; };
 		52AF5E4C2107A4E40019CB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52AF5E4E2107A4E50019CB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AF5E512107A4E50019CB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52AF5E532107A4E50019CB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AF5E592107C5D80019CB3E /* FlexibleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleHeader.swift; sourceTree = "<group>"; };
+		52AF5E5C2108BBFA0019CB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				52AF5E472107A4E40019CB3E /* AppDelegate.swift */,
-				52AF5E492107A4E40019CB3E /* ViewController.swift */,
+				52AF5E492107A4E40019CB3E /* TableViewFlexibleHeaderVC.swift */,
+				52AF5E592107C5D80019CB3E /* FlexibleHeader.swift */,
 				52AF5E4B2107A4E40019CB3E /* Main.storyboard */,
 				52AF5E4E2107A4E50019CB3E /* Assets.xcassets */,
 				52AF5E502107A4E50019CB3E /* LaunchScreen.storyboard */,
 				52AF5E532107A4E50019CB3E /* Info.plist */,
+				52AF5E5C2108BBFA0019CB3E /* ViewController.swift */,
 			);
 			path = FlexibleHeader;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AF5E4A2107A4E40019CB3E /* ViewController.swift in Sources */,
+				52AF5E4A2107A4E40019CB3E /* TableViewFlexibleHeaderVC.swift in Sources */,
 				52AF5E482107A4E40019CB3E /* AppDelegate.swift in Sources */,
+				52AF5E5D2108BBFA0019CB3E /* ViewController.swift in Sources */,
+				52AF5E5A2107C5D80019CB3E /* FlexibleHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
